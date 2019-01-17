@@ -30,13 +30,13 @@ public class Constants {
     // Automatic update checking
     public static final long UPDATE_DEFAULT_FREQ = AlarmManager.INTERVAL_HALF_DAY;
     // Build vars
-    public static final String CURRENT_DEVICE_NAME = "ro.beast.device";
-    public static final String CURRENT_VERSION = "org.beast.version";
+    public static final String CURRENT_DEVICE_NAME = "ro.product.device";
+    public static final String CURRENT_VERSION = "ro.modversion";
     public static final String OTA_URL = "https://raw.githubusercontent.com/BeastRoms/OTA/master/%s.json";
     public static final String OTA_VERSION_CODE = "pie";
     // Expressions
-    public static final String FILENAME_DATE_FORMAT = "yyyyMMdd";
-    public static final String PATTERN_FILENAME_DATE_FORMAT = "(\\d{4}\\d{2}\\d{2})";
+    public static final String FILENAME_DATE_FORMAT = "yyyyMMdd-Hm";
+    public static final String PATTERN_FILENAME_DATE_FORMAT = "(\\d{4}\\d{2}\\d{2}-\\d{2}\\d{2})";
     // Default wipe options
     public static final boolean DELETE_AFTER_INSTALL_DEFAULT = false;
     public static final boolean WIPE_CACHE_BY_DEFAULT = true;
